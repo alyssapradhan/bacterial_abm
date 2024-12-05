@@ -135,8 +135,7 @@ class Sim:
 
         # bacteria die if energy is < 0
         alive_bac = []  # to store bacteria that are alive
-        # TODO remove for loop
-        for b in self.bacteria:
+        def kill(b):
             # bacteria with energy < 0 die
             if b.energy < 0:
                 if b.breed == "coop":
@@ -145,8 +144,9 @@ class Sim:
                     self.num_rec -= 1  # decrease number of recombiners
             else:
                 alive_bac.append(b)  # if energy > 0, add bacteria to alive_bac list (includes cheaters)
-        
         # update bacteria list
+        with Pool(64) as pool:
+            pool.map(kill, self.bacteria)
         self.bacteria = alive_bac
 
         # if no bacteria are left, method returns early
@@ -267,7 +267,7 @@ if __name__ == '__main__':
             for line in f:
                 count += 1
     print("there have already been", count, "simulations")
-    for i in range(10 - count):
+    for i in range(5 - count):
         print("simulating", i)
         sim = Sim(
             start_energy=2,
