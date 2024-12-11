@@ -1,3 +1,5 @@
+## AUTHORS ##
+Cassandra Areff, Yumi Briones, Alyssa Pradhan, Danielle Share
 
 ## GOAL ##
 We aim to replicate the agent-based model of prosocial behavior and recombination in bacteria by Lee et al. (2023) using Python packages. We will run a minimal subset of parameter combinations and
