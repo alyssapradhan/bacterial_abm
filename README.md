@@ -1,4 +1,4 @@
-# A modified agent-based model of recombination and prosocial behavior in bacteria #
+# An agent-based model of recombination and prosocial behavior in bacteria #
 _By Cassandra Areff, Yumi Briones, Alyssa Pradhan, and Danielle Share_
 
 ## GOAL ##
