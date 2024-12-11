@@ -1,9 +1,7 @@
 
 ## GOAL ##
-We aim to replicate the ABM by Lee et al. (2023) using Python packages and introduce relevant
-modifications in environmental factors and recombination rates based on literature. We will
-compare our findings to the original paper as well as other studies (preferably those that have
-generated *in vitro* data).
+We aim to replicate the agent-based model of prosocial behavior and recombination in bacteria by Lee et al. (2023) using Python packages. We will run a minimal subset of parameter combinations and
+compare our findings to the original paper.
 
 ## REFERENCES ##
 P. A. Lee, O. T. Eldakar, J. P. Gogarten, and C. P. Andam. *Recombination as an enforcement
