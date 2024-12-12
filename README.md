@@ -13,6 +13,10 @@ Most important:
 * `gens_500` contains `run_sim.py` results for 500 generations
 * `241212_vis` generates visualizations from `gens_50`
 
+Branches:
+* yumis-branch: Code by Yumi cleaning the logic and running the simulations
+* AP_visualisation: Code by Alyssa for the static and dynamic visualisations
+
 Less important:
 * `test_sims` are test simulation results
 * `abm.ipynb` is the initial version of our simulation in notebook format, without parallel computing features
