@@ -14,8 +14,8 @@ Most important:
 * `241212_vis` generates visualizations from `gens_50`
 
 Branches:
-* 'yumis-branch' code by Yumi cleaning the logic and running the simulations
-* 'AP_visualisation' code by Alyssa for the static and dynamic visualisations
+* `yumis-branch` code by Yumi cleaning the logic and running the simulations
+* `AP_visualisation` code by Alyssa for the static and dynamic visualisations
 
 Less important:
 * `test_sims` are test simulation results
