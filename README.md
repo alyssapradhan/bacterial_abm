@@ -7,12 +7,15 @@ compare our findings to the original paper.
 
 ## DIRECTORY STRUCTURE ##
 
+Most important:
 * `run_sim.py` is our simulation with parallel computing features
 * `gens_50` contains `run_sim.py` results for 50 generations
 * `gens_500` contains `run_sim.py` results for 500 generations
+* `241212_vis` generates visualizations from `gens_50`
+
+Less important:
 * `test_sims` are test simulation results
 * `abm.ipynb` is the initial version of our simulation in notebook format, without parallel computing features
-* `241212_vis` generates visualizations from `gens_50`
 * `test_visualizations` contains test code for visualizations
 
 ## REFERENCES ##
